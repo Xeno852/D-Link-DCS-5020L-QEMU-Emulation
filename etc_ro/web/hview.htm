@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>D-Link Corporation. | WIRELESS INTERNET CAMERA | HOME | H.264</title>
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<meta content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" rev="stylesheet" href="dlink.css?cidx=%%ReleaseTime();%%" type="text/css">
+<script language="Javascript" SRC="function.js?cidx=%%ReleaseTime();%%"></script>
+<script language="Javascript">
+//if (top != self) {
+//    top.location = self.location;
+//}
+</script>
+<script language="Javascript">
+function loadurl(url)
+{
+  redir.action = "/" + url;
+  redir.ReplySuccessPage.value = url;
+  redir.ReplyErrorPage.value = url;
+  javascript:redir.submit();
+}
+</script>
+</head>
+<body>
+<FORM id="redir" name="redir" ACTION="/" METHOD="POST" autocomplete="off">
+<input type="hidden" name="ReplySuccessPage" value="">
+<input type="hidden" name="ReplyErrorPage" value="">
+</Form>
+</body>
+<script language="Javascript">
+<!--
+  pf = navigator.platform;
+  bp2 = pf.substring(0,3);
+  
+  if (bp2 == "Win") {
+    Browser = CheckBrower();
+    if ( (Browser == "IE")|| (Browser == "IE1x") || (Browser == "KKMAN"))
+      loadurl("aview.htm");
+    else
+      loadurl("hjview.htm");
+  } else {
+    if (bp2 == "Mac")
+      loadurl("hmview.htm");
+    else
+      loadurl("hjview.htm");
+  }
+//-->
+</script>
+</html>

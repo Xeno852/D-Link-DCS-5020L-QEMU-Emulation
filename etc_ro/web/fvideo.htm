@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>H.264</title>
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<meta content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<script language="Javascript" SRC="function.js?cidx=%%ReleaseTime();%%"></script>
+<script language="Javascript">
+window.setTimeout("RetryUrl()", 1800000);
+function RetryUrl() {
+    window.setInterval("GetReturnUrl()", 3000);
+}
+function GetReturnUrl() {
+    loadurl("fvideo.htm");
+}
+</script>
+</head>
+<body>
+<embed width="%%Current264VideoWidth();%%" height="%%Current264VideoHeight();%%" 
+menu="false" loop="false" play="true" allowfullscreen="true" 
+src="http://player.longtailvideo.com/player.swf?autostart=true&controlbar=none&file=%%JavaCodeBase();%%/h264.flv?cidx=%%ReGetIndex();%%" 
+pluginspage="%%Protocol();%%://get.adobe.com/flashplayer/" type="application/x-shockwave-flash">
+</embed>
+</body>
+</html>
+
+<FORM id="redir" name="redir" ACTION="/" METHOD="POST" autocomplete="off">
+<input type="hidden" name="ReplySuccessPage" value="">
+<input type="hidden" name="ReplyErrorPage" value="">
+</Form>
+
